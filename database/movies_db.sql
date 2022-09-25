@@ -163,7 +163,7 @@ WHERE title LIKE "T%";
 
 SELECT COUNT(*)
 FROM movies_tbl 
-WHERE title LIKE "T%"
+WHERE title LIKE "T%";
 
 SELECT *
 FROM movies_tbl
@@ -172,3 +172,11 @@ ORDER BY release_year ASC;
 ORDER BY release_year DESC;
 
 SELECT title, release_year
+FROM movies_tbl;
+
+SELECT year_of_birth
+FROM main_actors_tbl;
+SELECT * FROM main_actors_tbl WHERE year_of_birth < 1980;
+
+
+
