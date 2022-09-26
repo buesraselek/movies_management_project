@@ -59,7 +59,7 @@ SELECT main_actors_tbl.name, sex, directors_tbl.name
 FROM directors_tbl
 CROSS JOIN main_actors_tbl
 ORDER BY sex ASC
-LIMIT 4;
+LIMIT 5;
 
 +------------------+------+---------------+
 | name             | sex  | name          |
@@ -67,6 +67,7 @@ LIMIT 4;
 | Gemma Chan       | F    | James Cameron |
 | Zoe Saldaña      | F    | James Cameron |
 | Angelina Jolie   | F    | James Cameron |
+| Gal Gadot        | F    | James Cameron |
 | Sigourney Weaver | F    | James Cameron |
 +------------------+------+---------------+
 
@@ -150,3 +151,6 @@ LIMIT 1;
 +-----------+--------------+---------------+-----------+
 | Cleopatra |         2023 |          1985 | Gal Gadot |
 +-----------+--------------+---------------+-----------+
+
+
+
