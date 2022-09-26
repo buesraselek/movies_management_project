@@ -36,6 +36,18 @@ SELECT * FROM movies_tbl WHERE director_id = 2;
 +----+-----------------+--------------+-------------+
 
 ```
+```sql 
+SELECT COUNT(*)
+FROM movies_tbl 
+WHERE director_id = 2;
+
++----------+
+| COUNT(*) |
++----------+
+|        2 |
++----------+
+
+```
 
 Question 3
 
